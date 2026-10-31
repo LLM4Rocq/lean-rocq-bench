@@ -224,10 +224,10 @@ Notes:
 Requirements:
 
 - Ubuntu 24.04 on x86_64, or macOS on Apple Silicon. Linux is the configuration with the full sandbox; on
-  macOS, Lean checks have no sandbox (see [macOS](#macos)). This version of the scripts was tested on macOS
-  (Apple Silicon); Ubuntu 24.04 (x86_64) was tested with an earlier version of the scripts. Other Linux
-  distributions with Landlock and systemd should work but are untested, and so are arm64 Linux and Intel Macs.
-  Windows is not supported, and WSL is untested.
+  macOS, Lean checks have no sandbox (see [macOS](#macos)). This version of the scripts was tested on
+  Ubuntu 24.04 (x86_64, kernel 6.8) and on macOS (Apple Silicon). Other Linux distributions with Landlock
+  and systemd should work but are untested, and so are arm64 Linux and Intel Macs. Windows is not
+  supported, and WSL is untested.
 - About 15 to 20 GB of disk: Mathlib's prebuilt files (about 7 GB in `env/lean/.lake`), the two Lean toolchains
   (about 5 GB in `~/.elan`), the opam switch (about 2 GB in `~/.opam`) and the comparators (about 0.6 GB in
   `env/vendor`).

@@ -32,8 +32,8 @@ is archived.
 
 ## Supported configuration
 
-The secure configuration is Linux. Its reference system is Ubuntu 24.04 on x86_64, which was tested with an
-earlier version of the scripts; this version was tested on macOS (Apple Silicon). The configuration needs:
+The secure configuration is Linux. Its reference system is Ubuntu 24.04 on x86_64 (kernel 6.8), on which this
+version of the scripts was tested, as it was on macOS (Apple Silicon). The configuration needs:
 
 - the checks run as a dedicated user that has no administrator rights, holds no secrets and runs nothing else;
 - the kernel enforces Landlock, and the landrun probe of `env/linux/install_landrun.sh` passes;
