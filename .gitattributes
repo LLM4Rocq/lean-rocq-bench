@@ -1,0 +1,8 @@
+# Every text file is stored and checked out with LF line endings.
+* text=auto eol=lf
+
+# .v is shared by Rocq, Verilog and V: these are Rocq files.
+*.v linguist-language=Rocq-Prover
+
+# .lean is shared by Lean 3 and Lean 4: these are Lean 4 files.
+*.lean linguist-language=Lean-4

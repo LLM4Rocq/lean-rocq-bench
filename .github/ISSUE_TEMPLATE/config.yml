@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Private report (security issue, or a problem that needs a proof to show)
+    url: https://github.com/LLM4Rocq/lean-rocq-bench/security/advisories/new
+    about: Sandbox escapes, false accepts, bypasses of the axiom policy or of the statement comparison, and statement or checker problems that can only be shown with a solution or a proof. These reports stay private.

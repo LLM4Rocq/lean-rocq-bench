@@ -1,0 +1,25 @@
+# Written by the install scripts and the checker
+env/work/
+env/vendor/
+env/lean/.lake/
+env/results/
+
+# Python
+__pycache__/
+
+# Rocq build products
+*.vo
+*.vok
+*.vos
+*.glob
+*.aux
+.lia.cache
+.nia.cache
+.nra.cache
+
+# Lean build products
+*.olean
+*.ilean
+
+# macOS
+.DS_Store
